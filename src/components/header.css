@@ -1,0 +1,11 @@
+.header_wrapper { position:relative; }
+
+.appbar_wrapper { width:100%;height:70px;display:flex;flex-direction:row;justify-content:space-between;align-items:center;position:fixed;top:0;left:0;z-index:10;text-align:center;background:#ffffff; }
+.appbar_wrapper > .appbar_left, .appbar_wrapper > .appbar_right { width:10%; }
+.appbar_wrapper > .appbar_center { width:80%; }
+
+.table_nav { border:1px solid #212121;border-collapse:collapse;width:100%;position:fixed;top:70px;left:0;z-index:10;background:#ffffff; }
+.table_nav td { border:1px solid #212121;height:35px;text-align:center; }
+.table_nav td:hover { background-color:#ef463bcc;color:#ffffff; }
+
+.header_height { height:140px; }
