@@ -7,7 +7,7 @@ export default function LogIn({setIsLoggedIn}) {
   const handleLogin = () => setIsLoggedIn(true)
 
   return (
-    <div id="login_wrapper">
+    <div className="login_wrapper">
         <Header />
 
         <h1 className="login_title">Sign In</h1>
@@ -26,7 +26,7 @@ export default function LogIn({setIsLoggedIn}) {
                 <button type="submit" className="btn_submit" onClick={handleLogin}>sign in</button>
               </div>
             </form>
-            <h4 className="btn_signup_link">Don't have an account? <Link to="/settings">Sign up</Link></h4>
+            <h4 className="btn_signup_link">Don't have an account? <Link to="/signup">Sign up</Link></h4>
           </div>
         </div>
     </div>
