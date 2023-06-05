@@ -1,0 +1,106 @@
+.login_title {
+    margin:50px auto;
+    text-align:center;
+    border-top:3px double #333;
+    border-bottom:3px double #333;
+    width:250px;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight:400;
+}
+.login_form_container {
+    background: url('/public/images/common/biscuit.png') no-repeat center center;
+    background-size: 570px 770px;
+    padding-top:80px;
+    width:570px;
+    height:770px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom:155px;
+    display:flex;
+    flex-direction: column;
+    font-size:20px;
+    padding:130px 110px;
+}
+.login_form_inner {
+    padding: 120px 100px;
+}
+.login_img {
+    text-align:center;
+    width:100px;
+    height:100px;
+    border-radius:50%;
+    border:4px solid #fff;
+    margin:0 auto 30px;
+    padding:5px;
+}
+.login_img img {
+    width:80px;
+    height:80px;
+}
+.login_form_container label {
+    vertical-align: middle;
+    font-family: 'Noto sans KR', sans-serif;
+    color:#fff;
+    text-shadow:1px 1px rgba(0,0,0,.4);
+}
+.login_info label {
+    display:block;
+    border-bottom:2px dashed #fff;
+    font-size:27px;
+}
+.login_info input {
+    border-color:#ddd;
+    border-width:1px;
+    border-radius:5px;   
+    line-height:45px;
+    display:block;
+    margin:5px 0 15px;
+    width:100%;
+    font-size:25px;
+    padding:2px 5px;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+.login_info input:focus {
+    outline:none;
+}
+.btn_container {
+    text-align:center;
+    margin-top:55px;
+}
+.btn_submit {
+	box-shadow: 0px 0px 3px 0px #666666;
+	background:linear-gradient(to bottom, #eae0c2 5%, #ccc2a6 100%);
+	background-color:#eae0c2;
+	border-radius:30px;
+	border:2px solid #ede2c7;
+	display:inline-block;
+	cursor:pointer;
+	color:#505739;
+    font-family: 'Noto Sans KR', sans-serif;
+	font-size:22px;
+	font-weight:bold;
+	padding:15px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffffff;
+}
+.btn_submit:hover {
+	background:linear-gradient(to bottom, #eae0c2 5%, #ccc2a6 100%);
+	background-color:#ccc2a6;
+    box-shadow: 0px 0px 7px 0px #666666;
+}
+.btn_submit:active {
+	position:relative;
+	top:1px;
+}
+.btn_signup_link {
+    text-align: center;
+    color:#fff;
+    text-shadow:1px 1px rgba(0,0,0,.7);
+}
+.btn_signup_link a {
+    color:#fff;
+    text-decoration: none;
+}
+.btn_signup_link:hover a {
+    text-decoration: underline;
+}

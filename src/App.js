@@ -4,6 +4,7 @@ import './App.css';
 import Header from './components/Header';
 import Main from './pages/Main';
 import Category from './pages/Category';
+import LogIn from './pages/LogIn';
 
 function App() {
   return (
@@ -12,7 +13,9 @@ function App() {
         <Header />
 
         <Routes>
-          <Route path='/' element={<Category />} />
+          <Route path='/' element={<Main />} />
+          <Route path='/category' element={<Category />} />
+          <Route path='/login' element={<LogIn />} />
         </Routes>
       </BrowserRouter>
     </>
