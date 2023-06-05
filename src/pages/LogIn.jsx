@@ -10,8 +10,8 @@ export default function LogIn({setIsLoggedIn}) {
     <div className="login_wrapper">
         <Header />
 
-        <h1 className="login_title">Sign In</h1>
-        <div className="login_form_container">
+        <h1 className="page_title">Sign In</h1>
+        <div className="form_container">
           <div className="login_form_inner">
             <div className="login_img">
               <img src="/images/common/logo_login.png" alt="logo_login" />
@@ -26,7 +26,7 @@ export default function LogIn({setIsLoggedIn}) {
                 <button type="submit" className="btn_submit" onClick={handleLogin}>sign in</button>
               </div>
             </form>
-            <h4 className="btn_signup_link">Don't have an account? <Link to="/signup">Sign up</Link></h4>
+            <div className="btn_sign_link">Don't have an account? <Link to="/signup">Sign up</Link></div>
           </div>
         </div>
     </div>

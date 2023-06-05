@@ -9,8 +9,8 @@ export default function SingUp({setIsLoggedIn}) {
     <div className="signup_wrapper">
         <Header />
 
-        <h1 className="signup_title">Sign Up</h1>
-        <div className="signup_form_container">
+        <h1 className="page_title">Sign Up</h1>
+        <div className="form_container">
             <form className="formx">
               <div className="file_container">
                 <div className="file_img_container">
@@ -33,7 +33,7 @@ export default function SingUp({setIsLoggedIn}) {
               <div className="btn_container">
                 <button type="submit" className="btn_submit" onClick={handleLogin}>submit</button>
               </div>
-              <h4 className="btn_signin_link">Already have an account? <Link to="/login">Sign in</Link></h4>
+              <div className="btn_sign_link">Already have an account? <Link to="/login">Sign in</Link></div>
             </form>
         </div>
     </div>
