@@ -1,6 +1,6 @@
 import React from 'react'
 import './category.css'
-import ItemCard from '../components/ItemCard'
+import ItemCard from '../components/ListItemCard'
 
 export default function Category() {
   return (

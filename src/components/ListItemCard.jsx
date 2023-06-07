@@ -1,5 +1,5 @@
-import * as React from 'react';
-import './itemcard.css'
+import React from 'react';
+import './listitemcard.css'
 import Card from '@mui/material/Card';
 import CardActions from '@mui/material/CardActions';
 import CardContent from '@mui/material/CardContent';
@@ -8,13 +8,23 @@ import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography'
 
 export default function ImgMediaCard() {
+  
+  let innerWidth = window.innerWidth;
+  let maxWidth;
+
+  if(innerWidth < 768) {
+    maxWidth = (innerWidth * 0.5) - 5;
+  } else {
+    maxWidth = 285;
+  }
+
   return (
-    <Card sx={{ maxWidth: 285, height:550 }} className='card_wrapper'>
+    <Card sx={{ maxWidth: maxWidth, height:550 }} className='card_wrapper'>
       <CardMedia
         component="img"
         alt="item1"
         width="100%"
-        image="images/menu/RedVelvet.png"
+        image="images/menu/cupcake_RedVelvet.png"
       />
       <CardContent>
         <Typography gutterBottom variant="p" component="div">

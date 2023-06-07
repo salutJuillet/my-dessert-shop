@@ -3,7 +3,7 @@ import Header from '../components/Header';
 import { Link } from 'react-router-dom';
 
 export default function SingUp({setIsLoggedIn}) {
-  const handleLogin = () => setIsLoggedIn(true)
+  const handleSignin = () => setIsLoggedIn(true)
 
   return (
     <div className="signup_wrapper">
@@ -14,7 +14,7 @@ export default function SingUp({setIsLoggedIn}) {
             <form className="formx">
               <div className="file_container">
                 <div className="file_img_container">
-                  <img src="/images/common/file_attachment.jpg" alt="사진 첨부" />
+                  <img src="/images/common/icon_file_attach.jpg" alt="사진 첨부" />
                   {/* <a href="https://www.flaticon.com/kr/free-icons/-" title="생강 빵 아이콘">생강 빵 아이콘  제작자: Freepik - Flaticon</a> */}
                 </div>
                 <label htmlFor="file_profile">
@@ -31,9 +31,9 @@ export default function SingUp({setIsLoggedIn}) {
               </div>
 
               <div className="btn_container">
-                <button type="submit" className="btn_submit" onClick={handleLogin}>submit</button>
+                <button type="submit" className="btn_submit" onClick={handleSignin}>submit</button>
               </div>
-              <div className="btn_sign_link">Already have an account? <Link to="/login">Sign in</Link></div>
+              <div className="btn_sign_link">Already have an account? <Link to="/signin">Sign in</Link></div>
             </form>
         </div>
     </div>
